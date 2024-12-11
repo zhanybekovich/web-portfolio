@@ -1,11 +1,9 @@
 .post-card-excerpt {
+  margin: 0;
+  width: 368px;
+  height: 96px;
   font-family: "Heebo", sans-serif;
   font-size: 16px;
   color: #21243d;
-  text-align: justify;
-}
-.container {
-  margin: 20px;
-  width: 368px;
-  height: 96px;
+  text-align: left;
 }
