@@ -1,0 +1,11 @@
+.btn {
+  padding: 9px 15px;
+  color: #fff;
+  font-family: "Heebo", sans-serif;
+  font-size: 13px;
+  width: 208px;
+  height: 47px;
+  text-decoration: none;
+  background-color: #ff6464;
+  border-radius: 2px;
+}
