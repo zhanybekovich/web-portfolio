@@ -23,3 +23,42 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.header {
+  padding: 27px 0;
+  margin-bottom: 140px;
+}
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.header-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 29px;
+}
+.header .nav-link {
+  font-weight: 500;
+  font-family: "Heebo", serif;
+  color: #000;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.header .nav-link:hover {
+  color: #ff6464;
+}
+.header .nav-link--active {
+  color: #ff6464;
+}
