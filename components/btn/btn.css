@@ -1,0 +1,13 @@
+.btn {
+  padding-bottom: 9px;
+  padding-top: 17px;
+  padding-left: 20px;
+  padding-right: 21px;
+  color: #fff;
+  font-family: "Heebo", sans-serif;
+  font-size: 13px;
+
+  text-decoration: none;
+  background-color: #ff6464;
+  border-radius: 2px;
+}
