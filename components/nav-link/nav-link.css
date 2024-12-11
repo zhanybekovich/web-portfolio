@@ -1,0 +1,15 @@
+.nav-link {
+  font-weight: 500;
+  font-family: "Heebo", serif;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.nav-link:hover {
+  color: #ff6464;
+}
+
+.nav-link--active {
+  color: #ff6464;
+}
