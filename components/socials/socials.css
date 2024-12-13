@@ -1,6 +1,12 @@
 .socials {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.socials-img {
   margin: 0;
-  height: 30px;
   width: 30px;
+  height: 30px;
   margin: 35px;
 }
