@@ -1,27 +1,27 @@
 .hero-img-wrapper {
   position: relative;
-  width: 243px;
-  height: 243px;
-  border-radius: 50%;
-  overflow: hidden;
-  z-index: -1;
+  width: 270px;
+  height: 270px;
+  z-index: 1;
 }
 
 .hero-image {
-  width: 100%;
-  height: 100%;
+  width: 243px;
+  overflow: hidden;
+  border-radius: 50%;
+  height: 243px;
   object-fit: cover;
 }
 
 .hero-img-wrapper::after {
   content: "";
   position: absolute;
-  top: -15px;
-  right: 20px;
-  width: 100%;
-  height: 100%;
+  bottom: -30px;
+  right: 30px;
+  width: 243px;
+  top: 15px;
+  height: 243px;
   background-color: #edf7fa;
   z-index: -1;
   border-radius: 50%;
-  transform: translate(-20px, -20px);
 }
