@@ -1,0 +1,12 @@
+.featured-work-year {
+  display: inline-block;
+  background-color: #142850;
+  padding: 6px;
+  font-weight: 700;
+  width: 62px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Heebo";
+  border-radius: 30px;
+}
