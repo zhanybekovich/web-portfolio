@@ -5,8 +5,7 @@
 }
 
 .recent-posts {
-  display: flex;
   color: #21243d;
-  text-decoration: none;
-  border-radius: 0;
+  font-size: 22px;
+  font-weight: 400;
 }
