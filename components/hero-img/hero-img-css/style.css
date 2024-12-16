@@ -1,0 +1,24 @@
+.hero-img {
+  position: relative;
+  width: 100%;
+  height: 243px;
+}
+
+.hero-image::after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  right: 100px;
+  width: 100%;
+  height: 100%;
+  background-color: #edf7fa;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
