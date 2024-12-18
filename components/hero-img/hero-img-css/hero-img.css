@@ -1,0 +1,27 @@
+.hero-img-wrapper {
+  position: relative;
+  width: 270px;
+  height: 270px;
+  z-index: 1;
+}
+
+.hero-image {
+  width: 243px;
+  overflow: hidden;
+  border-radius: 50%;
+  height: 243px;
+  object-fit: cover;
+}
+
+.hero-img-wrapper::after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  right: 30px;
+  width: 243px;
+  top: 15px;
+  height: 243px;
+  background-color: #edf7fa;
+  z-index: -1;
+  border-radius: 50%;
+}
